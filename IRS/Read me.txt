@@ -1,0 +1,21 @@
+Welcome to IRS simulator
+
+Stage-1: Single IRS Component between Tx & Rx
+Stage-2: Multiple IRS Components between Tx & Rx
+Stage-3: Tx & Rx between two sided wall.Each wall has Multiple IRS Components between Tx & Rx
+
+Requirements:
+1.Python 3 
+
+Inputs:
+
+[1]: Select the Stage you want to simulate
+
+[2]: Enter different Values required (Lambda,H_t,H_r,frequency etc)
+     Enter only in float or integers.no units are required.Every paramter is considered in it's SI unit. 	
+
+Outputs:
+
+[1]: Attenuation Factor & Phase of received signal calculated Analytically and that from Derived formula
+
+[2]: If stage-1 is simulated then Attenuation v/s Reflection Coeff Phase is plotted with step of 10 degree.
